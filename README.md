@@ -32,7 +32,8 @@ Part 4: Make a Recommendation.
        Note: This file can be found in your Module 20 Challenge files.
 2. Remove the "MYOPIC" column from the dataset.
 
-       Note: The target column is needed for supervised machine learning, but it will make an unsupervised model biased. After all, the target column is effectively          providing clusters already!
+       Note: The target column is needed for supervised machine learning, but it will make an unsupervised model biased. 
+       After all, the target column is effectively providing clusters already!
 3. Standardize your dataset so that columns that contain larger values do not influence the outcome more than columns with smaller values.
 
 ## Part 2: Apply Dimensionality Reduction
