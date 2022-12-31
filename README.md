@@ -1,5 +1,5 @@
 # Unsupervised-machine-learning-challenge
-       Module 20 Challenge
+   
 
 # Background
 You are on the data science team of a medical research company that’s interested in finding better ways to predict myopia, or nearsightedness. Your team has tried—and failed—to improve their classification model when training on the whole dataset. However, they believe that there might be distinct groups of patients that would be better to analyze separately. So, your supervisor has asked you to explore this possibility by using unsupervised learning.
@@ -29,16 +29,16 @@ Part 4: Make a Recommendation.
 # Part 1: Prepare the Data
 1. Read myopia.csv into a Pandas DataFrame.
 
-Note: This file can be found in your Module 20 Challenge files.
+       Note: This file can be found in your Module 20 Challenge files.
 2. Remove the "MYOPIC" column from the dataset.
 
-Note: The target column is needed for supervised machine learning, but it will make an unsupervised model biased. After all, the target column is effectively providing clusters already!
+       Note: The target column is needed for supervised machine learning, but it will make an unsupervised model biased. After all, the target column is effectively          providing clusters already!
 3. Standardize your dataset so that columns that contain larger values do not influence the outcome more than columns with smaller values.
 
 # Part 2: Apply Dimensionality Reduction
 1. Perform dimensionality reduction with PCA. How did the number of the features change?
 
-HINT
+
 2. Further reduce the dataset dimensions with t-SNE and visually inspect the results. To do this, run t-SNE on the principal components, which is the output of the PCA transformation.
 
 3. Create a scatter plot of the t-SNE output. Are there distinct clusters?
