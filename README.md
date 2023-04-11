@@ -53,38 +53,3 @@ If possible, determine where the elbow of the plot is, and at which value of k i
 
 ## Part 4: Make a Recommendation
 Based on your findings, write up a brief (one or two sentences) recommendation for your supervisor in your Jupyter Notebook. Can the patients be clustered? If so, into how many clusters?
-
-## Requirements
-## Data Preparation (25 points)
-
-Reads the csv into pandas (5 points)
-
-Previews the DataFrame (5 points)
-
-Removes the MYOPIC column from the dataset (5 points)
-
-Standardizes the dataset using a scaler (5 points)
-
-Names the resulting DataFrame X (5 points)
-
-## Dimensionality Reduction (40 points)
-
-PCA model is created and used to reduce dimensions of the scaled dataset (10 points) 
-
-PCA model’s explained variance is set to 90% (0.9) (5 points)
-
-The shape of the reduced dataset is examined for reduction in number of features (5 points)
-
-t-SNE model is created and used to reduce dimensions of the scaled dataset (10 points)
-
-t-SNE is used to create a plot of the reduced features (10 points)
-
-## Clustering (30 points)
-
-A K-means model is created (10 points)
-
-A for- loop is used to create a list of inertias for each k from 1 to 10, inclusive (5 points)
-
-A plot is created to examine any elbows that exist (10 points)
-
-States a brief (1-2 sentence) conclusion on whether patients can be clustered together, and supports it with findings (10 points)
